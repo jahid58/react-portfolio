@@ -1,5 +1,5 @@
 main {
-  background-color: #0a192f;
+  background-color: #30336b;
   padding-bottom: 40px;
 }
 .about__image {
@@ -22,7 +22,6 @@ main {
 }
 
 .about__header {
-  background-color: steelblue;
   font-size: 1.2rem;
 }
 .info__box {

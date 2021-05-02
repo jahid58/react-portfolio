@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 
 import jahid from "../../images/jahid_hasan-removebg-preview.png";
+import Skill from "../Skill/Skill";
 
 const About = () => {
   return (
@@ -12,9 +13,10 @@ const About = () => {
       </div>
       <div className="row my-5 about__header">
         <div className=" col-md-5">
-          <img src={jahid} alt="Jahid Hasan" className="about__image" />
+          <h4 className="text-white m-2"> Skills</h4>
+          <Skill></Skill>
         </div>
-        <div className="col-md-6 p-5 m-auto description">
+        <div className="col-md-6 p-1 mx-auto description">
           <p>
             Expert in developing Single Page Aplication(SPA) using React and
             Node.js. I've a good knowledge in Javascript, ES6, Bootstap-4 and
@@ -22,41 +24,30 @@ const About = () => {
             stisfaction is my pride. Love to develop modern and impressive
             websites for my clients and always responsible for the job.
           </p>
-        </div>
-      </div>
-      <div className="row m-5">
-        <div className="col-md-4 text-left about__info">
-          <div className="info__box">
-            <h3>Skills</h3>
-            <p>
-              • <strong>Programming :</strong> Javascript, ES6, React,
-              Redux,HTML,Css,
-              <br />• <strong>Databases :</strong> MongoDB, Firebase, MySQL{" "}
-              <br />• <strong>Tools :</strong> Git, VSCode, Chrome Dev Tool
-              <br />• <strong>OS :</strong> Windows, Linux
-            </p>
-          </div>
-        </div>
-        <div className="col-md-4 text-left about__info">
-          <div className="info__box">
-            <h3>Personal Info</h3>
-            <p>
-              •<strong> Name</strong> : jahid hasan <br />• <strong>DoB</strong>{" "}
-              : 1st Jan 1999 <br />• <strong>Nationality</strong> : Bangladeshi{" "}
-              <br />• <strong> Blood Group</strong> : o+
-              <br />• <strong> Religion</strong> : Islam <br />
-              <br />
-            </p>
-          </div>
-        </div>
-        <div className="col-md-4 text-left about__info">
-          <div className="info__box">
-            <h3>Education</h3>
-            <p>
-              • <strong> Bachelor of Arts (Honours)</strong>
-              <br />• <strong>Institute:</strong> National University <br />•{" "}
-              <strong>Subject:</strong> English Literature
-            </p>
+          <div className="row">
+            <div className="col-md-6 text-left about__info">
+              <div className="info__box">
+                <h3>Personal Info</h3>
+                <p>
+                  •<strong> Name</strong> : jahid hasan <br />•{" "}
+                  <strong>DoB</strong> : 1st Jan 1999 <br />•{" "}
+                  <strong>Nationality</strong> : Bangladeshi <br />•{" "}
+                  <strong> Blood Group</strong> : o+
+                  <br />• <strong> Religion</strong> : Islam <br />
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6 text-left about__info">
+              <div className="info__box">
+                <h3>Education</h3>
+                <p>
+                  • <strong> Bachelor of Science (Honours)</strong>
+                  <br />• <strong>Institute:</strong> Govt. Titumir College{" "}
+                  <br />• <strong>Subject:</strong> Physics
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

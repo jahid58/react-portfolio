@@ -21,7 +21,7 @@ export const projectsData = [
     name: "Foodmama",
     image: "https://i.ibb.co/yysZKNC/foodmama.png",
     description:
-      "It’s an online food ordering website using  This is a React js project using node js for back end, firebase for authentication and hosting.",
+      "It’s an online food ordering website using  React js for front-end ,node js for back end, firebase for authentication and hosting.",
     features: "",
     github: "https://github.com/jahid58/food-mama-client",
     live: "https://food-mama-8b5ae.web.app/  ",
