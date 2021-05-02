@@ -1,0 +1,21 @@
+.homePage__header h1 {
+  color: tomato;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+.name {
+  color: teal;
+}
+.homePage__header button {
+  background-color: rgb(104, 87, 114);
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  margin: 5px;
+}
+.header_img img {
+  height: 100vh;
+  margin-top: -80px;
+}

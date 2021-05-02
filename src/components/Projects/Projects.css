@@ -1,0 +1,41 @@
+.text {
+  width: 100%;
+  text-align: center;
+}
+.text h1 {
+  font-weight: 700;
+  color: rgb(3, 106, 141);
+  margin: 40px;
+}
+.text h5 {
+  height: 3px;
+  background-color: black;
+  width: 90px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.project {
+  background-color: #0a192f;
+  margin: 20px 20px;
+  color: white;
+  min-height: 350px;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+.project:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-25px);
+}
+.project__info {
+  padding: 15px;
+}
+.project img {
+  width: 100%;
+  object-fit: contain;
+}
+.anchor {
+  font-size: 1.3rem;
+  font-weight: 400;
+}

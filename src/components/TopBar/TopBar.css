@@ -1,0 +1,13 @@
+.topBar {
+  height: 80px;
+  font-size: 16px;
+  background-color: #e4e4e6;
+}
+.menu-item {
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 600;
+  padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

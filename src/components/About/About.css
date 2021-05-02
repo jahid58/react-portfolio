@@ -1,0 +1,43 @@
+main {
+  background-color: #0a192f;
+  padding-bottom: 40px;
+}
+.about__image {
+  object-fit: contain;
+  width: 100%;
+}
+.about__me {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(237, 236, 245);
+  padding-top: 40px;
+}
+
+.intro {
+  color: rgb(230, 7, 26);
+}
+.description {
+  color: rgb(248, 244, 244);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.about__header {
+  background-color: steelblue;
+  font-size: 1.2rem;
+}
+.info__box {
+  min-height: 250px;
+  background-color: cornsilk;
+  color: rgb(2, 1, 2);
+  padding: 15px;
+  margin: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px gray;
+}
+
+.info__box h3 {
+  font-family: monospace;
+  color: rgb(100, 117, 21) !important;
+  font-size: 900;
+}
