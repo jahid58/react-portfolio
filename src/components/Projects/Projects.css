@@ -1,31 +1,31 @@
-.text {
+.project__heading {
   width: 100%;
   text-align: center;
 }
-.text h1 {
+.project__heading h1 {
   font-weight: 700;
   color: rgb(3, 106, 141);
   margin: 40px;
 }
-.text h5 {
+.project__heading h5 {
   height: 3px;
   background-color: black;
-  width: 90px;
+  width: 150px;
   margin: auto;
   margin-bottom: 40px;
 }
 .project {
-  background-color: #0a192f;
+  background-color: white;
   margin: 20px 20px;
-  color: white;
+  color: rgb(26, 20, 20);
   min-height: 350px;
-  box-shadow: 2px 2px 2px grey;
+  box-shadow: 5px 2px 2px grey;
   border-radius: 10px;
   transition: 1s ease-in-out;
 }
 .project:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(14, 10, 31);
+  color: rgb(252, 243, 243);
   transform: translateY(-25px);
 }
 .project__info {

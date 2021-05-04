@@ -4,7 +4,6 @@ import Progress from "./Progress";
 const Skill = () => {
   const allSkill = [
     { id: "01", skillType: "web", skill: "HTML", expertLevel: 95 },
-
     { id: "02", skillType: "web", skill: "React", expertLevel: 80 },
     { id: "03", skillType: "web", skill: "Redux", expertLevel: 80 },
     { id: "04", skillType: "web", skill: "Node.JS", expertLevel: 80 },

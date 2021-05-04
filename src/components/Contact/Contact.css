@@ -1,11 +1,12 @@
 .contact-page {
   padding: 100px 20px;
-  background-color: #e4e4e6;
+  background-color: #434368;
 }
 
 textarea {
-  height: 150px;
+  height: 200px;
 }
 .also-find {
   padding-top: 100px;
+  color: white;
 }

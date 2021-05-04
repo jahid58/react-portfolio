@@ -3,7 +3,7 @@ export const projectsData = [
     name: "Amazon Clone",
     image: "https://i.ibb.co/MyTZWRV/amzon-clone.png",
     description:
-      "This is a React js project using node js for back end, firebase for authentication and   hosting, heroku for server site hosting and stripe.js for payment.",
+      "This is a React js project using node js for back end, firebase for authentication and   hosting, heroku for server site hosting , stripe.js for payment system and redux for managing state.",
     features: "",
     github: "https://github.com/jahid58/myshop ",
     live: " https://amzon-clone-9102e.web.app/ ",
@@ -43,5 +43,40 @@ export const projectsData = [
     features: "",
     github: "https://github.com/Porgramming-Hero-web-course/react-auth-jahid58",
     live: "https://road-masters-41d57.firebaseapp.com/ ",
+  },
+];
+
+export const blogsData = [
+  {
+    id: 1,
+    subject: "How t write a react component",
+    image:
+      "https://cdn-media-1.freecodecamp.org/images/1*N2KU7pOcwZwKeOi3B-YBLQ.png",
+  },
+  {
+    id: 2,
+    subject: "React state management libraries and How to choose ...",
+    image: "https://miro.medium.com/max/2016/1*QNmIfs6HGXIB2kqWV2NOoA.png",
+  },
+  {
+    id: 3,
+    subject:
+      'Blogged Answers: Why React Context is Not a "State Management" Tool (and Why It Does not Replace R...',
+    image: "https://miro.medium.com/max/1400/1*Yo1nkzOAMihE8Ia5O411PQ.jpeg",
+  },
+  {
+    id: 4,
+    subject: "most uses of ES6",
+    image: "https://www.cloudsavvyit.com/p/uploads/2019/07/9608c9ff.png",
+  },
+  {
+    id: 5,
+    subject: "Redux or Context api ,which to use",
+    image: "https://daveceddia.com/images/context-vs-redux.png",
+  },
+  {
+    id: 6,
+    subject: "React lifecycle",
+    image: "https://miro.medium.com/max/5000/1*bqLzlcQEU8e7yWQ3tKSaxQ.png",
   },
 ];

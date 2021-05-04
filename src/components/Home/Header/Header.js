@@ -5,15 +5,21 @@ import resume from "./file-sample.pdf";
 import { Button } from "react-bootstrap";
 import { GrLinkedin } from "react-icons/gr";
 import { GoArrowDown, GoMarkGithub } from "react-icons/go";
+import Typical from "react-typical";
 const Header = () => {
   return (
     <div className="header__body">
       <div className="homePage__header row">
         <div className="header_content p-5 m-auto col-md-7 ">
-          <h1>
-            Hello I'm <span className="name"> Jahid Hasan</span>
-          </h1>
-          <h4 className="text-success"> A passionate web app developer.</h4>
+          <h1>Hi! I'm Jahid Hasan</h1>
+          <h2>
+            {" "}
+            <Typical
+              steps={["A passionate", 400, "Web Developer", 2000]}
+              loop={Infinity}
+              wrapper="p"
+            />
+          </h2>
           <p>
             Always try to grab the new features of technology. Acquired to
             maintain strong interpersonal relationships with teammates. I am
@@ -37,7 +43,7 @@ const Header = () => {
             </Button>
           </a>
         </div>
-        <div className="col-md-5 header_img">
+        <div className="col-md-5 header__img">
           <img src={headerImg} alt="" />
         </div>
       </div>

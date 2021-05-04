@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { projectsData } from "../../projectsData";
+import { projectsData } from "../../fakeData";
 import Project from "./Project";
 import "./Projects.css";
 
@@ -12,8 +12,8 @@ const Projects = () => {
   return (
     <div>
       <div className="projects__container text-center">
-        <div className="text">
-          <h1>Projects</h1>
+        <div className="project__heading">
+          <h1>PROJECTS</h1>
           <h5></h5>
         </div>
         <div className="row">

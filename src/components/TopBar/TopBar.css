@@ -14,8 +14,6 @@
 }
 @media only screen and (max-width: 320px) {
   .topBar {
-    background-color: #30336b;
     height: 100%;
-    color: white !important;
   }
 }

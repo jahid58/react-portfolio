@@ -32,6 +32,7 @@ const TopBar = () => {
 
               <a
                 className="menu-item"
+                rel="noreferrer"
                 target="_blank"
                 href="https://drive.google.com/file/d/10iErbm1XtXUGZEZ62OnkKV556TWLROlT/view?usp=sharing"
               >

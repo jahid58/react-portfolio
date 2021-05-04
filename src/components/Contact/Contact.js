@@ -25,10 +25,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page">
+    <div className="contact-page" id="contact">
       <div className=" row  align-items-center ">
         <div className="col-md-6 pb-4">
-          <h4 className="text-success">Tell me how can I help you:</h4>
+          <h3 className="text-white">Contact me </h3>
           <form className="contactForm" onSubmit={handleSubmit(onSubmit)}>
             <br />
             <br />
@@ -81,7 +81,7 @@ const Contact = () => {
             <a
               className="btn btn-primary mt-2"
               target="_blank"
-              href="https://www.facebook.com/jahid hasan/"
+              href="https://www.facebook.com/profile.php?id=100034030120779"
             >
               <GrFacebook /> Facebook
             </a>
